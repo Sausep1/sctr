@@ -1,0 +1,590 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Adamina);
+
+.main-logo{
+    width:150px;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+.pay-box{
+    padding: 20px 12px 20px 12px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    gap: 10px;
+}
+.pay-box .pay-box-head{
+    display: flex;
+    align-items: center;
+}
+.pay-box .pay-box-body {
+    padding-left:25px;
+  }
+  .pay-box .pay-box-body p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #312f2f;
+  }
+    .pay-box .pay-box-head .amount {
+      font-family: 'Adamina';
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: right;
+
+    }
+
+    .sub-label {
+      font-family: 'Adamina';
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+color: #343436;
+    }
+
+    .continue-btn {
+top: 715px;
+left: 897px;
+padding: 18px 10px 18px 10px;
+border-radius: 8px;
+gap: 10px;
+color: #ffffff;
+font-family: 'Adamina';
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+    }
+
+    .section-free h2{
+      line-height:46.31px;
+      font-size: 34px;
+      font-family: 'Adamina';
+      color: #343436;
+  }
+   .section-free h5{
+        line-height:32px;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Roboto';
+        color: #312f2f;
+    }
+    .section-free input {
+      border: 1px solid #00000038;
+      border-radius: 12px;
+    }
+    .free-heading{
+      font-family: 'Neue Machina';
+      font-size: 34px;
+      font-weight: 800;
+      line-height: 33px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #000000;
+    }
+    .sub-text {
+      font-family: 'Adamina' !important;
+      font-size: 32px !important;
+      font-weight: 400 !important;
+      line-height: 51px !important;
+      letter-spacing: 0em !important;
+      text-align: left !important;
+      color: #000000 !important;
+    }
+    .social-circle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height:64px;
+        width:64px;
+        border-radius: 50%;
+        border:1px solid rgb(0 0 0 / 14%)
+    }
+
+    .login-img{
+      border-radius:45px;
+      overflow: hidden;
+      height:445px;
+      box-shadow: 0px 0px 6.14068889610px rgba(0, 0, 0, 0.25);
+    }
+
+    .login-img img{
+     height:100%;
+     width:100%;
+    }
+    /* .. */
+
+/* styles.css */
+#verticalCarousel .carousel-inner {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+}
+
+#verticalCarousel .carousel-item {
+  transition: transform 0.6s ease-in-out; /* Animation timing */
+  transform: translateY(100%); /* Initial position */
+  position: relative;
+  /* height: 100vh; Adjust this value as needed */
+}
+
+#verticalCarousel .carousel-item.active {
+  transform: translateY(0); /* Active slide position */
+}
+
+
+/* chat box */
+.scout-chat-box{
+  position: fixed;
+  bottom:5px;
+  right:5px;
+  height:900px;
+  width:334px;
+  border-radius: 14px 0px 0px 14px;
+background: #FCFAF8;
+box-shadow: -4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+overflow: hidden;
+background: url(../images/chat-bg.png) no-repeat;
+background-position: bottom;
+
+
+}
+.scout-chat-box .tab-pane{
+  padding:15px;
+}
+.scout-chat-box .tab-pane .heading{
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: -0.03733333945274353px;
+  text-align: left;
+  color: #4f4f4f;
+}
+.scout-chat-box .chat-box-head{
+  display: flex;
+  align-items: center;
+  background-color: #0D0C0F;
+  height:50px;
+  padding:15px;
+  border-radius: 8px 0px 0px 0px;
+}
+.gap-8 {
+  gap: 8px;
+}
+.mr-4 {
+  margin-right: -4px;;
+}
+.tab-txt {
+  font-family: 'Roboto';
+font-size: 13px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: -0.03733333945274353px;
+text-align: left;
+}
+.gap-25 {
+  gap: 25px;
+}
+.gap-24 {
+  gap: 24px;
+}
+.gap-8 {
+  gap: 8px;
+}
+.mr-47 {
+  margin-right: 47px;
+}
+.trip-add-btn {
+left: 160px;
+padding: 2px 12px 2px 12px;
+border-radius: 4px;
+border: 0.5px;
+gap: 4px;
+border: 0.5px solid #343436CC;
+margin-right: 5px;
+font-family: 'Roboto';
+font-size: 10px;
+font-weight: 400;
+line-height: 11.72px;
+letter-spacing: 0px;
+text-align: left;
+color: #343436;
+}
+
+.chat-tag{
+font-size: 10px;
+border-radius: 14px;
+border: 0.5px solid rgba(79, 79, 79, 0.20);
+background: #F8F8F8;
+padding: 6px 8px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-right:10px;
+margin-bottom: 10px;
+font-family: 'Roboto';
+font-size: 10px;
+font-weight: 300;
+line-height: 11.72px;
+letter-spacing: 0em;
+text-align: left;
+color: #575151;
+}
+.chat-tag:last-child{margin-right:0;}
+.add-tag{
+  color:white;
+  background-color: #0D0C0F;
+  cursor: pointer;
+}
+.your-trip {
+  font-family: 'Roboto';
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: -0.03733333945274353px;
+text-align: left;
+color: #4f4f4f;
+}
+.your-trip-booking {
+  font-family: 'Roboto';
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: -0.03733333945274353px;
+text-align: left;
+color: #fcfaf8;
+}
+
+.border-custom {
+  border: 1px solid #CCCCCC !important;
+  width: 334px !important;
+}
+
+.chat-area{
+  overflow: auto;
+  max-height:calc(100vh - 400px);
+}
+.chat-message{
+  padding: 10px 15px 10px 15px;
+  gap: 10px;
+}
+
+.chat-message p {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.mesage-left{border-radius: 0px 18px 18px 18px;background-color: #0D0C0F;color: white;}
+.mesage-right{border-radius: 18px 0px 18px 18px;float:right;background-color: white;}
+
+
+.chat-search{
+  position: relative;
+  overflow: hidden;
+}
+.chat-search-section{
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+.chat-search-icon{
+  position: absolute;
+  top: 1px;
+    right: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  width: 35px;
+height: 35px;
+border-radius:50%;
+background: white;
+cursor: pointer;
+
+}
+.chat-search .form-control{
+  border-radius: 24px;
+  background-color: #F0F0F0;
+}
+.chat-search .form-control:focus{
+box-shadow: none;
+}
+
+.clearfix{
+  clear:both;
+}
+.booking-box{
+  border-radius: 8px;
+border: 1px solid #4f4f4f;
+background:#343436;
+padding:16px 8px;
+color: white;
+}
+.booking-box-white{
+  width: 166px;
+  height: 47px;
+  border-radius: 8px;
+  border: 1px solid #4F4F4F33;
+background:#ffffff;
+padding:16px 8px;
+}
+.ml-65 {
+  margin-left: 65px;
+}
+.trip-box{
+  border-radius: 12px;
+  height:44px;
+background:#343436;
+display: flex;
+align-items: center;
+padding:12px;
+}
+
+.trip-box span {
+  font-family: 'Roboto';
+font-size: 14px;
+font-weight: 500;
+line-height: 16.41px;
+letter-spacing: -0.04px;
+text-align: left;
+color: #FCFAF8;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+/* nav tabs style */
+.nav-tabs .nav-link {
+  border: none;
+  color: #4f4f4f; 
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.nav-tabs .nav-link.active {
+  border-bottom: 3px solid #007bff;
+  font-weight: 600;
+  border-color:#0D0C0F;
+}
+
+/* scroll */
+/* Target the scrollbar track */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust this value to change the scrollbar width */
+}
+
+/* Target the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #b7b7b7; /* Color of the scrollbar thumb */
+  border-radius: 4px; /* Rounded corners for the thumb */
+}
+
+/* Target the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #575757; /* Color of the thumb on hover */
+}
+
+/* Target the scrollbar track on hover */
+::-webkit-scrollbar-track:hover {
+  background-color: #f1f1f1; /* Color of the track on hover */
+}
+
+    /* Smartphones (portrait and landscape) ----------- */
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+      /* Styles */
+      .scout-chat-box {
+        max-width: 100%;
+        height: 98%;
+      }
+      }
+      
+      /* Smartphones (landscape) ----------- */
+      @media only screen and (min-width : 321px) {
+      /* Styles */
+      .scout-chat-box {
+        max-width: 100%;
+        height: 98%;
+      }
+      }
+      
+      /* Smartphones (portrait) ----------- */
+      @media only screen and (max-width : 320px) {
+      /* Styles */
+      .scout-chat-box {
+        max-width: 100%;
+        height: 98%;
+      }
+      }
+      
+      /* iPads (portrait and landscape) ----------- */
+      @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+      /* Styles */
+      .scout-chat-box {
+        max-width: 100%;
+        height: 98%;
+      }
+      }
+      
+      /* iPads (landscape) ----------- */
+      @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+      /* Styles */
+      .scout-chat-box {
+        max-width: 100%;
+        height: 98%;
+      }
+      }
+      
+      /* iPads (portrait) ----------- */
+      @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+      /* Styles */
+      .scout-chat-box {
+        max-width: 100%;
+        height: 98%;
+      }
+      }
+      /**********
+      iPad 3
+      **********/
+      @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+      /* Styles */
+      .scout-chat-box {
+        max-width: 100%;
+        height: 98%;
+      }
+      }
+      
+      @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+      /* Styles */
+      .scout-chat-box {
+        max-width: 100%;
+        height: 98%;
+      }
+      }
+      /* Desktops and laptops ----------- */
+      @media only screen  and (min-width : 1224px) {
+      /* Styles */
+      .scout-chat-box {
+        max-width: 100%;
+        height: 98%;
+      }
+      }
+      
+      /* Large screens ----------- */
+      @media only screen  and (min-width : 1824px) {
+      /* Styles */
+      .scout-chat-box {
+        max-width: 100%;
+        height: 98%;
+      }
+      }
+      
+      /* iPhone 4 ----------- */
+      @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+      /* Styles */
+      .scout-chat-box {
+        max-width: 100%;
+        height: 98%;
+      }
+      }
+
+      .mt-115 {
+        margin-top: 115px !important;
+      }
+
+      .mt-145 {
+        margin-top: 145px !important;
+      }
+
+      .gap-4 {
+        gap: 4px;
+      }
+
+      .sign-btn {
+        width: Fixed (510px);
+        height: Fixed (58px);
+        padding: 18px 10px 18px 10px;
+        border-radius: 8px;
+        gap: 10px;
+      }
+
+      .dont-txt-hard {
+        font-family: 'Neue Machina';
+        font-size: 16px;
+        font-weight: 800;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      .dont-txt {
+        font-family: 'Neue Machina';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+
+      }
+
+      .booking-message-heading {
+        font-family: 'Roboto' !important;
+font-size: 13px !important;
+font-weight: 400 !important;
+line-height: 15px !important;
+letter-spacing: -0.03733333945274353px !important;
+text-align: left !important;
+      }
+      p{
+font-family: 'Roboto';
+font-size: 13px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: -0.03733333945274353px;
+text-align: left;
+
+      }
+
+      .booking-message-heading-white {
+        font-family: 'Roboto' !important;
+font-size: 13px !important;
+font-weight: 400 !important;
+line-height: 15px !important;
+letter-spacing: -0.03733333945274353px !important;
+text-align: left !important;
+color: #343436;
+      }
+
+      .mr-135 {
+        margin-right: 135px;
+      }
+
+      .vl {
+        width: 4px;
+        height: 40px;
+    border: 4px solid #343436;
+    margin-left: 140px;
+      }
+      .vlw {
+        width: 4px;
+        height: 40px;
+    border: 4px solid #d9d9d9;
+    margin-left: 140px;
+      }
+
+      .chat-area-booking {
+        overflow: auto;
+        max-height: calc(100vh - 235px);
+      }
