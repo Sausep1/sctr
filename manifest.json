@@ -7,9 +7,15 @@
         "32":"icons/32.png",
         "48":"icons/48.png",
         "128":"icons/128.png"},
+        "action": {
+        "default_popup": "popup.html"
+      },
     "permissions": [
       "sidePanel"
     ],
+    "background.service_worker":{
+      "back": "back.js"
+    },
     "side_panel": {
       "default_path": "sidepanel.html"
     },
